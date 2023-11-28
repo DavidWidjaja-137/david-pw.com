@@ -1,0 +1,15 @@
+collections:
+  main_pages:
+    output: true
+    permalink: /:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

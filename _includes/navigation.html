@@ -1,0 +1,16 @@
+
+
+<header>
+  <div class="namecard">
+      <h1><a href="/">David Pratama Widjaja</a></h1>
+      <p>widjaja (dot) david (at) ymail (dot) com</p>
+      <nav class="namecard-iconbar">
+        {% for item in site.data.navigation %}
+          <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+  </div>
+</header>
+  
+  
+  
