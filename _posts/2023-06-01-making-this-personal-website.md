@@ -100,3 +100,11 @@ You get the idea. The tech stack is:
 Here is a diagram of the system architecture:
 
 ![Elastic Beanstalk Diagram](/assets/img/eb_diagram.jpeg)
+
+
+### June 2023 - Onwards
+
+Satisfied that I knew how to use and configure AWS Elastic Beanstalk, and concerned at how expensive running a 
+load balancer is, I moved over my website to GitHub Pages, using the Jekyll static website templating engine. In a way,
+becoming confident enough with AWS to no longer feel the need to prove my ability on overengineering a static blog 
+website, is a sign of technical maturity.
