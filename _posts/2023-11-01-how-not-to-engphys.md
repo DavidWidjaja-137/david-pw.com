@@ -1,7 +1,10 @@
 ---
 layout: post
 author: David
+title: How not to EngPhys, or 'make sure your suffering counts'
 ---
+
+For better or for worse, I graduated from UBC's Engineering Physics program in 2022. 
 
 If you are here to learn how to survive and thrive in Engineering Physics, you 
 have come to the wrong place. In retrospect, I consider my time then to be turbulent. I 

@@ -1,6 +1,7 @@
 ---
 layout: post
 author: David
+title: Making this personal website
 ---
 
 ### Introduction
