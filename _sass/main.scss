@@ -22,6 +22,22 @@ header {
   justify-content: center;
 }
 
+.namecard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.namecard-iconbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  text-align: center
+}
+
 main {
   background-color: white;
   padding-top: 2vw;
@@ -33,12 +49,8 @@ main {
 
 @media (orientation: landscape) {
   main {
-      background-color: white;
-      padding-top: 2vw;
-      padding-bottom: 2vw;
       padding-left: 25vw;
       padding-right: 25vw;
-      flex: 1 0 auto;
   }
 }
 
@@ -83,34 +95,11 @@ a:hover {
   background-color: lightsteelblue;
 }
 
-.namecard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.namecard-iconbar {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 1em;
-  text-align: center
-}
-
-.iconbar-img {
-  height: 100%;
+img {
   width: 100%;
 }
 
 
-.block-image {
-  display: block;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
 
 .blogs {
   background-color: white;
